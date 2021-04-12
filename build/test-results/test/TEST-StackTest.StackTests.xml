@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StackTest.StackTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-04-12T20:33:55" hostname="DESKTOP-1CER5HD" time="0.062">
+<testsuite name="StackTest.StackTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-04-12T20:43:20" hostname="DESKTOP-1CER5HD" time="0.054">
   <properties/>
-  <testcase name="peek_test_null()" classname="StackTest.StackTests" time="0.027"/>
-  <testcase name="push_test()" classname="StackTest.StackTests" time="0.006"/>
-  <testcase name="pop_test_empty_stack()" classname="StackTest.StackTests" time="0.012"/>
-  <testcase name="pop_test()" classname="StackTest.StackTests" time="0.002"/>
-  <testcase name="stack_is_empty()" classname="StackTest.StackTests" time="0.004"/>
-  <testcase name="peek_test()" classname="StackTest.StackTests" time="0.001"/>
+  <testcase name="contains_test()" classname="StackTest.StackTests" time="0.027"/>
+  <testcase name="peek_test_null()" classname="StackTest.StackTests" time="0.004"/>
+  <testcase name="push_test()" classname="StackTest.StackTests" time="0.004"/>
+  <testcase name="pop_test_empty_stack()" classname="StackTest.StackTests" time="0.002"/>
+  <testcase name="pop_test()" classname="StackTest.StackTests" time="0.001"/>
+  <testcase name="stack_is_empty()" classname="StackTest.StackTests" time="0.002"/>
+  <testcase name="peek_test()" classname="StackTest.StackTests" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

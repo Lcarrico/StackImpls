@@ -38,4 +38,14 @@ public class Stack {
         top = top.getNode();
         return value;
     }
+
+    public boolean contains(int value){
+        Node first = this.top;
+        while(first != null){
+            if (first.getValue() == value)
+                return true;
+            first = first.getNode();
+        }
+        return false;
+    }
 }
