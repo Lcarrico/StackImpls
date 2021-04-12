@@ -64,4 +64,15 @@ public class StackTests {
         Assertions.assertEquals(5, demo.pop());
     }
 
+    @Test
+    void contains_test(){
+        Stack demo = new Stack();
+        demo.push(1);
+        demo.push(3);
+        Assertions.assertFalse(demo.contains(2));
+
+        demo.push(2);
+        Assertions.assertTrue(demo.contains(2));
+    }
+
 }
